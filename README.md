@@ -1,6 +1,6 @@
 # 🧦 Hot Socks — The Hottest Sock Store of the Summer
 
-Live Demo: [https://yougnme.github.io/hot-socks](https://yougnme.github.io/hot-socks)
+Live Demo: https://yougnme.github.io/Hot-socks-Landing/
 
 ## 📄 Description
 
