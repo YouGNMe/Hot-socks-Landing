@@ -24,7 +24,8 @@ Features colorful product cards, smooth hover effects, and a fake cart modal for
 
 ## 📸 Preview
 
-*(Add a screenshot here if you want — optional)*
+![image](https://github.com/user-attachments/assets/50f74cca-e3a8-4fc8-b95f-28c2fdd66b89)
+
 
 ## 📦 How to Use
 
