@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hot Socks Store</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🔥 Hot Socks 4 this Sommer</h1>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="product-card">
+        <img src="memsocks.png" alt="Crazy Sock" />
+        <h2>Meme Socks</h2>
+        <p>€7.99</p>
+       <button onclick="openModal()">Add to card</button>
+
+      </div>
+      <div class="product-card">
+        <img src="cybersocks.png" alt="Cool Sock" />
+        <h2>Cybersocks</h2>
+        <p>€9.99</p>
+        <button onclick="openModal()">Add to card</button>
+      </div>
+       <div class="product-card">
+        <img src="football.jpg" alt="Cool Sock" />
+        <h2>Football Socks</h2>
+        <p>€20.99</p>
+         <button onclick="openModal()">Add to card</button>
+      </div>
+       <div class="product-card">
+        <img src="mcdonalds-socken.jpg" alt="Cool Sock" />
+        <h2>McDonald´s Socks</h2>
+        <p>€19.99</p>
+        <button onclick="openModal()">Add to card</button>
+      </div>
+       <div class="product-card">
+        <img src="retro.jpg" alt="Cool Sock" />
+        <h2>Retro Socks</h2>
+        <p>€25.99</p>
+     <button onclick="openModal()">Add to card</button>
+      </div>
+      <!-- Добавь ещё карточки -->
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Hot Socks Inc.</p>
+  </footer>
+  <div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <p>🧦 Has been adden to your card! Congrats</p>
+    <button onclick="closeModal()">Ок</button>
+  </div>
+</div>
+
+<script>
+  const modal = document.getElementById('modal');
+
+  function openModal() {
+    modal.classList.remove('hidden');
+  }
+
+  function closeModal() {
+    modal.classList.add('hidden');
+  }
+</script>
+
+</body>
+</html>
